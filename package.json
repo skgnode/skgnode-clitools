@@ -1,0 +1,23 @@
+{
+  "name": "skgnode-clitools",
+  "version": "0.0.3",
+  "preferGlobal": true,
+  "bin": {
+    "clitools": "index.js"
+  },
+  "description": "A sample CLI tool to help SKG-Noders understand how to write CLI tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skgnode/skgnode-clitools"
+  },
+  "author": "Adonis K. <aklp08@gmail.com> (http://adonisk.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "underscore": "^1.7.0"
+  }
+}
